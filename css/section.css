@@ -1,0 +1,51 @@
+/*About Section*/
+.about-section {
+
+    display: flex;
+    padding: 10px;
+    background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+
+}
+.container-about {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+
+}
+.row {
+    
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: -15px;
+    padding-left: -15px;
+
+}
+.col {
+
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.letter-center {
+
+    text-align:center;
+
+}
+
+.img-position {
+
+    max-width: 100%;
+    height: auto;
+
+}

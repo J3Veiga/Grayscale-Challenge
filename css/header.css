@@ -1,0 +1,84 @@
+.header {
+
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom,rgba(22,22,22,.3) 0,rgba(22,22,22,.7) 75%,#161616 100%),url(../img/bg-masthead.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+.header h1 {
+    
+    font-family: 'Varela Round';
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.header h2 {
+    
+    font-family: 'Varela Round';
+    color: rgba(255, 255, 255, 0.5);
+    max-width: 15rem;
+    font-size: 0.8em;
+    padding: 0.5rem 0;
+    text-transform: inherit;
+    text-align: center;
+    
+}
+.container {
+
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.header-align{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.btn {
+
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    padding: 1.25rem 2rem;
+    font-family: 'Varela Round';
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    border: 0;
+
+  }
+.btn a {
+
+    text-decoration: none;
+
+}
+  
+  .btn-green {
+
+    color:white;
+    text-decoration: none;
+    background-color: #64a19d;
+  }
+  
+  .btn-green:hover {
+    background-color: #4f837f;
+  }

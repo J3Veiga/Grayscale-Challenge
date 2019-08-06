@@ -1,0 +1,39 @@
+@import 
+url("https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
+@import
+url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+@import './css/header.css';
+@import './css/menu.css';
+@import './css/section.css';
+@import './css/footer.css';
+
+html {
+    
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font: 12px 'Nunito';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    font-weight: 900;
+}
