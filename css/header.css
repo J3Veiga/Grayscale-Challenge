@@ -16,23 +16,28 @@
 .header h1 {
     
     font-family: 'Varela Round';
-    font-size: 2.5rem;
+    font-size: 3.2rem;
+    font-weight: 550;
     line-height: 2.5rem;
     letter-spacing: 0.8rem;
     background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    margin: 20px;
 }
 
 .header h2 {
     
     font-family: 'Varela Round';
     color: rgba(255, 255, 255, 0.5);
-    max-width: 15rem;
-    font-size: 0.8em;
-    padding: 0.5rem 0;
-    text-transform: inherit;
     text-align: center;
+    max-width: 20rem;
+    font-size: 1.1em;
+    font-weight: 400;
+    padding: 0.5rem 0;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: inherit;
     
 }
 .container {
@@ -40,10 +45,12 @@
     display: flex;
     justify-content: center;
     width: 100%;
+    height: 300px;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    margin-top: 50px;
 
 }
 .header-align{
@@ -51,13 +58,14 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 45px;
 
 }
 .btn {
 
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 10rem;
     padding: 1.25rem 2rem;
     font-family: 'Varela Round';
     font-size: 80%;
@@ -76,9 +84,9 @@
 
     color:white;
     text-decoration: none;
-    background-color: #64a19d;
+    background-color: #4b928d;
   }
   
   .btn-green:hover {
-    background-color: #4f837f;
+    background-color: #3d7571;
   }

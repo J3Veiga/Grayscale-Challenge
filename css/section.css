@@ -2,39 +2,71 @@
 .about-section {
 
     display: flex;
-    padding: 10px;
     background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
-
+    background-size: 550px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
 }
 .container-about {
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 150px;
+    padding-left: 150px;
     margin-right: auto;
     margin-left: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.container-about h2 {
 
+    font-family: 'Varela Round';
+    font-weight: 400;
+    align-self: center;
+    max-width: 15rem;
+    font-size: 1.9em;
+    padding: 0.5rem 0;
+    text-transform: inherit;
 
 }
+.container-about p {
+
+    font-family: 'Varela Round';
+    text-align: inherit;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.5); 
+    margin-bottom: 85px;
+    padding-bottom: 0;
+
+}
+.container-about a {
+
+    color:#64a19d;
+    text-decoration: none;
+
+}
+/*For Any Section*/
 .row {
     
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: row wrap;
+    justify-content: center;
     padding-right: -15px;
     padding-left: -15px;
+    padding-bottom: 0;
+    margin-bottom: 0;
 
 }
 .col {
 
     display: flex;
-    flex-flow: column;
+    flex-flow: column wrap;
+    width: 50%;
     position: relative;
-    width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+    padding-bottom: 0;
+    margin-bottom: 0;
 
 }
 .letter-center {
@@ -47,5 +79,69 @@
 
     max-width: 100%;
     height: auto;
+    padding-bottom: 0;
+    margin-bottom: 0;
 
+
+}
+
+/*Projects Section*/
+.projects-section {
+
+    display: flex;
+    background:rgb(236, 233, 233); 
+    padding : 150px 0;
+    margin: 0;
+
+}
+.projects-section .green-bar {
+
+    
+
+    border-left: 0.5rem solid #64a19d;
+    border-width: 10%;
+    padding: 2rem;
+
+}
+.projects-section .text-row {
+
+    font-size: 0.9rem;
+    font-family: 'Nunito';
+    text-align: none;
+    padding: 0 0 0 2rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.130rem;
+    color: rgb(121, 116, 116); 
+    
+
+}
+.projects-section h4 {
+
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    color: rgb(56, 54, 54);  
+
+}
+.container-project {
+
+    width: 100%;
+    height: auto;
+    padding-right: 150px;
+    padding-left: 150px;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+.row-project {
+
+    display: flex;
+    flex-flow: row wrap;
+
+
+}
+.align-projects {
+
+    align-items: center;
+    
 }
