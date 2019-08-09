@@ -45,7 +45,7 @@
     text-decoration: none;
 
 }
-/*For Any Section*/
+/*Can be used for any Section*/
 .row {
     
     display: flex;
@@ -96,8 +96,6 @@
 }
 .projects-section .green-bar {
 
-    
-
     border-left: 0.5rem solid #64a19d;
     border-width: 10%;
     padding: 2rem;
@@ -133,6 +131,7 @@
     margin-left: auto;
 
 }
+/*between lines*/
 .row-project {
 
     display: flex;
@@ -145,3 +144,54 @@
     align-items: center;
     
 }
+.content-center {
+
+    justify-content: center;
+
+}
+.black-box {
+
+    display: flex;
+    background: #161616;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+.block-col {
+
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    width: 100%;
+    height: auto;
+ 
+
+}
+/*Line 2 and 3*/
+.col-line {
+
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+
+/*Linha 3*/
+.row-reverse {
+
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.block-col-rem {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+
+}
+
